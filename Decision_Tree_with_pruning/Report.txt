@@ -1,0 +1,17 @@
+@author : shivaganga
+@author : tharunngolthi
+
+** Assumptions **
+--If a noisy data is encountered then the class classification int the tree has no value i.e it mean a don't care value
+--we have only considered the internal nodes(exuluding leaf nodes) for selecting the total number of prune nodes
+--If the node ouputs an "x" it means don't care. 
+--In summary the total number of nodes displayed are the nodes excluding leaf nodes. 
+--Each Leaf node is the decision node i.e which stores the value of the class if the tree condition in that path followed.
+
+I have accomplished in creating Decision tree and pruned if for better results.
+
+Observations:
+- We have observed that with the help of training data, we can built a decision tree which would work with 100% accuracy on training data and would be good enough for the test data. 
+- If we encounter noisy data in the training data the accuracy of the decision tree decreases. 
+- We have observed that if the decision tree is pruned its accuracy increases or decreases depending on the pruning factor and nodes pruned.  
+- It is better to prune nodes which are close to the root nodes and to avoid pruning root nodes. 
