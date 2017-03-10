@@ -1,0 +1,31 @@
+@author : shivaganga
+@author : tharunngolthi
+
+Report:
+
+we use python 2.7 in this Assignment
+Libraries used:
+	-numpy
+	-pandas
+
+Assumptions:
+	-adult.data.txt HAS LARGE DATA IF YOU WANT TO SEE THE OUTPUT, CHANGE THE EPOCH VALUE TO 2 OR 3 IN NeuralNet.pyAS IT HAS MANY TUPLES. IT TAKES A LOT OF TIME TO TRAIN THE NEURAL NET AND TO GET GET AN ERROR OF 0.01 WE HAVE TO WAIT FOR A LONG TIME.
+	-Last column of the given dataset is considered as the class argument.
+	-For standardizing numerical data we use the normalization function -> (x-mean)/(min - max).
+	-For n categorical data we  divided it into n columns using python library numpy.
+	-If any other missing values rather than "?" are used in input data, add it into the miss list in PreProcessing.py
+	-If the class value is continious we classified it based on the mean valued ( if the value is > mean then class 1 otherwise,0).
+	-We have taken the epoch value as 250 if you want more accuracy increase the epoch value in NeuralNet.py(but it will take more time on bigger data).
+	-The iteration will also be terminated if the specified error tolerance has been met.
+
+Description about neural network: 
+	-There is a Neuron class which has layer number,index,bias,adjacencyList,revadjacencyList,net,output.
+	-Each nueron except the nerons in the input layer has a bias associated with it(and it is numbered before its nueron).
+	
+	
+Analysis:
+
+	-we have attached the output screenshot of the the three datasets with our best results
+	-for the Adult.data.txt there are lot of observations so it takes a lot of time to train the data
+		-we have given the output screenshot adult1 for the epoch value of 2 which has taken 2 minutes of time to complete
+		-also give the output screenshot adult2 for the epoch value of 30 which has taken 30 minutes to execute
