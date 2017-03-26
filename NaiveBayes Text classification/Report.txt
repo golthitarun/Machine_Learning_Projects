@@ -1,0 +1,9 @@
+
+Description:
+
+- Implemented a Naive bayes classification on the 20 News group dataset.
+- This is impleted in Python 2.7
+- The header in each document is ignored during the training and testing of the classifier. 
+- We used Nltk libraries to extract vocabulary from the documents and also to remove Stopwords and Common words in english( so as to increase the accuracy of classification )
+- To reduce the processing time we are only implementing this classifier on the first five classes of the 20 News group dataset.
+
