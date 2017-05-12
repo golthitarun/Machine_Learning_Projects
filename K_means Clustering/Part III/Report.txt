@@ -1,0 +1,10 @@
+-> In this program we used open_cv library to read image, then to convert it into a clustered image.
+-> We gave the following arguments for the cv2.kmeans"
+	termination_criteria =cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER(stop the iteration if specified accuracy, epsilon, is reache met or if the specified number of iterations, max_iter.)
+	max_iter = 10 (An integer specifying maximum number of iterations.)
+	epsilon = 1.0 (Required accuracy)
+	attempts = 10
+	flags = cv2.KMEANS_RANDOM_CENTERS
+-> Here for the first image I used k value as 5 to get the best clustering possible.
+-> Here for the second image I used k value as 2 to get the best clustering possible.
+-> Here for the third image I used k value as 7 to get the best clustering possible.

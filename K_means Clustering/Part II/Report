@@ -1,0 +1,8 @@
+*************** ASSUMPTIONS *******************
+
+-> Here we assument that the k-value is default and depends on the initial seed file, therefore the k-value is calculated by using the number if intitial seeds given in the Initial_seeds file. If the initial seeds file is changed the program will run accordingly to the new initial seeds. 
+-> Hence, we excluded the k-value from the input. 
+
+*************** RESULTS ************************
+
+->The SSE for the given initial seeds is found to be = 25.366375557
